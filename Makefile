@@ -23,3 +23,8 @@ lint:
 lint-fix:
 	GOFLAGS=-buildvcs=false go tool -modfile=go.mod golangci-lint run --fix
 
+
+update:
+	@echo "\t Updating"
+	@go get -u ./... && format
+
