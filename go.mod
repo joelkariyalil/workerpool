@@ -1,4 +1,4 @@
-module github.com/joelkariyalil/workerpool
+module github.com/joelkariyalil/cmd-cv
 
 go 1.26.5
 
